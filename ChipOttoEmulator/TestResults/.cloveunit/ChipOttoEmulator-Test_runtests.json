@@ -1,0 +1,182 @@
+{
+	"clove_version" : "2.4.0",
+	"json_schema" : "1.0",
+	"result" : {
+		"suite_count" : 1,
+		"test_count" : 36,
+		"suites" : {
+			"MySuite01" : {
+				"file" : "W:/VisualStudio/Chip8Solution/ChipOttoEmulator-Test/ChipOttoEmulator-Test.cpp",
+				"tests" : {
+					"TestOpcode0" : {
+						"status" : "PASS",
+						"duration" : 165907100
+					},
+					"TestOpcode01" : {
+						"status" : "PASS",
+						"duration" : 58915500
+					},
+					"TestOpcode02" : {
+						"status" : "PASS",
+						"duration" : 58114100
+					},
+					"TestOpcode02Overflow" : {
+						"status" : "PASS",
+						"duration" : 57659200
+					},
+					"TestOpcode03" : {
+						"status" : "PASS",
+						"duration" : 55256900
+					},
+					"TestOpcode04EqualValues" : {
+						"status" : "PASS",
+						"duration" : 68185500
+					},
+					"TestOpcode04NotEqualValues" : {
+						"status" : "PASS",
+						"duration" : 55024500
+					},
+					"TestOpcode05" : {
+						"status" : "FAIL",
+						"duration" : 1300,
+						"line" : 115,
+						"assert" : "FAIL"
+					},
+					"TestOpcode06" : {
+						"status" : "PASS",
+						"duration" : 66717400
+					},
+					"TestOpcode07" : {
+						"status" : "PASS",
+						"duration" : 59904200
+					},
+					"TestOpcode08ADDCarry" : {
+						"status" : "PASS",
+						"duration" : 59015900
+					},
+					"TestOpcode08ADDNoCarry" : {
+						"status" : "PASS",
+						"duration" : 62480200
+					},
+					"TestOpcode08AND" : {
+						"status" : "PASS",
+						"duration" : 58660700
+					},
+					"TestOpcode08LD" : {
+						"status" : "PASS",
+						"duration" : 57984100
+					},
+					"TestOpcode08OR" : {
+						"status" : "FAIL",
+						"duration" : 1500,
+						"line" : 146,
+						"assert" : "FAIL"
+					},
+					"TestOpcode08SHL" : {
+						"status" : "PASS",
+						"duration" : 60747000
+					},
+					"TestOpcode08SHL2" : {
+						"status" : "PASS",
+						"duration" : 59614500
+					},
+					"TestOpcode08SHR" : {
+						"status" : "FAIL",
+						"duration" : 1200,
+						"line" : 202,
+						"assert" : "FAIL"
+					},
+					"TestOpcode08SUB" : {
+						"status" : "FAIL",
+						"duration" : 200,
+						"line" : 196,
+						"assert" : "FAIL"
+					},
+					"TestOpcode08SUBN" : {
+						"status" : "FAIL",
+						"duration" : 300,
+						"line" : 207,
+						"assert" : "FAIL"
+					},
+					"TestOpcode08XOR" : {
+						"status" : "PASS",
+						"duration" : 59328900
+					},
+					"TestOpcode09" : {
+						"status" : "FAIL",
+						"duration" : 1500,
+						"line" : 236,
+						"assert" : "FAIL"
+					},
+					"TestOpcode0NoCls" : {
+						"status" : "PASS",
+						"duration" : 61992500
+					},
+					"TestOpcodeA" : {
+						"status" : "PASS",
+						"duration" : 58305800
+					},
+					"TestOpcodeB" : {
+						"status" : "FAIL",
+						"duration" : 1300,
+						"line" : 249,
+						"assert" : "FAIL"
+					},
+					"TestOpcodeC" : {
+						"status" : "PASS",
+						"duration" : 57320900
+					},
+					"TestOpcodeD" : {
+						"status" : "FAIL",
+						"duration" : 67113200,
+						"line" : 274,
+						"assert" : "EQ",
+						"type" : "INT",
+						"expected" : "0",
+						"actual" : "-1"
+					},
+					"TestOpcodeF_ADD_I_Vx" : {
+						"status" : "PASS",
+						"duration" : 63496200
+					},
+					"TestOpcodeF_LD_B_Vx" : {
+						"status" : "PASS",
+						"duration" : 65100000
+					},
+					"TestOpcodeF_LD_DT_Vx" : {
+						"status" : "PASS",
+						"duration" : 65278100
+					},
+					"TestOpcodeF_LD_F_Vx" : {
+						"status" : "PASS",
+						"duration" : 60120900
+					},
+					"TestOpcodeF_LD_I_Vx" : {
+						"status" : "PASS",
+						"duration" : 60060200
+					},
+					"TestOpcodeF_LD_ST_Vx" : {
+						"status" : "PASS",
+						"duration" : 61126000
+					},
+					"TestOpcodeF_LD_Vx_DT" : {
+						"status" : "PASS",
+						"duration" : 89963500
+					},
+					"TestOpcodeF_LD_Vx_I" : {
+						"status" : "PASS",
+						"duration" : 66412300
+					},
+					"TestOpcodeF_LD_Vx_K" : {
+						"status" : "PASS",
+						"duration" : 69575000
+					}
+				}
+			}
+		},
+		"test_passed" : 28,
+		"test_skipped" : 0,
+		"test_failed" : 8,
+		"status" : "FAIL"
+	}
+}
